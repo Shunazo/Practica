@@ -1,0 +1,316 @@
+[
+  {
+    "ContainingType": "GastosAPI.Controllers.CategoriaController",
+    "Method": "Get",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.CategoriaController",
+    "Method": "Put",
+    "RelativePath": "api/Categoria/{nombre}/{personanombre}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoria",
+        "Type": "CapaDatos.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.CategoriaController",
+    "Method": "Delete",
+    "RelativePath": "api/Categoria/{nombre}/{personanombre}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.CategoriaController",
+    "Method": "GetCategoriaByPersona",
+    "RelativePath": "api/Categoria/{personanombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.CategoriaController",
+    "Method": "Post",
+    "RelativePath": "api/Categoria/{personanombre}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoria",
+        "Type": "CapaDatos.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.GastoController",
+    "Method": "Get",
+    "RelativePath": "api/Gasto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.GastoController",
+    "Method": "Delete",
+    "RelativePath": "api/Gasto/{nombre}/{personanombre}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.GastoController",
+    "Method": "GetGastoPorPersona",
+    "RelativePath": "api/Gasto/{personanombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.GastoController",
+    "Method": "GetGastoPorPersonaYCategoria",
+    "RelativePath": "api/Gasto/{personanombre}/{categorianombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "categorianombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.GastoController",
+    "Method": "Post",
+    "RelativePath": "api/Gasto/{personanombre}/{categorianombre}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "categorianombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "gasto",
+        "Type": "CapaDatos.Gasto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.GastoController",
+    "Method": "Put",
+    "RelativePath": "api/Gasto/{personanombre}/{nombre}/{categorianombre}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personanombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "categorianombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "gasto",
+        "Type": "CapaDatos.Gasto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.PersonaController",
+    "Method": "Get",
+    "RelativePath": "api/Persona",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.PersonaController",
+    "Method": "Get",
+    "RelativePath": "api/Persona/{usuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.PersonaController",
+    "Method": "Put",
+    "RelativePath": "api/Persona/{usuario}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "persona",
+        "Type": "CapaDatos.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.PersonaController",
+    "Method": "Delete",
+    "RelativePath": "api/Persona/{usuario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.PersonaController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Persona/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personaLogin",
+        "Type": "CapaDatos.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GastosAPI.Controllers.PersonaController",
+    "Method": "Post",
+    "RelativePath": "api/Persona/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "persona",
+        "Type": "CapaDatos.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

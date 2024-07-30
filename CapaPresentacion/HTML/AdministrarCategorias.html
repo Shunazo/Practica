@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Administracion de Categorias</title>
+        <link rel="stylesheet" href="../CSS/categoriastyle.css" />
+	</head>
+
+	<body>
+		<div class="flex-container">
+		<div class="main">
+            <h1>Gestion de Categorias</h1>
+            <h2>¿Qué deseas hacer?</h2>
+            <button onclick="obtenerCategorias()">Obtener Categorías</button>
+            <button onclick="crearCategoria()">Crear Categoría</button>
+            <button onclick="editarCategoria()">Editar Categoría</button>
+            <button onclick="borrarCategoria()">Borrar Categoría</button>
+            <button onclick="window.location.href='Menu.html'">Volver al Menu</button>
+        </div>
+
+		<div class= "container" id="resultado"></div>
+	</div>
+	</body>
+	<script src="../JS/categoria.js"></script> 
+</html>

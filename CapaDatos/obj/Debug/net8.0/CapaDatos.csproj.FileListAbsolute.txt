@@ -1,0 +1,14 @@
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\bin\Debug\net8.0\CapaDatos.deps.json
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\bin\Debug\net8.0\CapaDatos.runtimeconfig.json
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\bin\Debug\net8.0\CapaDatos.dll
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\bin\Debug\net8.0\CapaDatos.pdb
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\CapaDatos.AssemblyInfo.cs
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\CapaDatos.dll
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\refint\CapaDatos.dll
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\CapaDatos.pdb
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\CapaDatos.genruntimeconfig.cache
+C:\Users\Abel\Desktop\asd\GastosAPI\CapaDatos\obj\Debug\net8.0\ref\CapaDatos.dll

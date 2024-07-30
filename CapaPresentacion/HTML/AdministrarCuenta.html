@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Administracion de Cuenta</title>
+        <link rel="stylesheet" href="../CSS/cuentastyle.css" />
+	</head>
+
+	<body>
+		<div class="flex-container">
+		<div class="main">
+            <h1>Gestion de Cuenta</h1>
+            <h2>¿Qué deseas hacer?</h2>
+            <button onclick="obtenerInformacion()">Obtener Informacion de Cuenta</button>
+            <button onclick="editarInformacion()">Editar Informacion de Cuenta</button>
+            <button onclick="borrarCuenta()">Borrar Cuenta</button>
+            <button onclick="window.location.href='Menu.html'">Volver al Menu</button>
+        </div>
+
+		<div class= "container" id="resultado"></div>
+	</div>
+	</body>
+	<script src="../JS/cuenta.js"></script> 
+</html>
